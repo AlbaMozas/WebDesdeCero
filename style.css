@@ -1,4 +1,4 @@
- *{
+*{
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -48,10 +48,12 @@
  .home{
     color: aliceblue;
     font-size: 15px;
+    border-bottom: 1px solid #000000;
  }
 .concepto{
     color: aliceblue;
     font-size: 15px;
+    border-bottom: 1px solid #000000;
 }
 .concepto{
     color: aliceblue;
@@ -89,7 +91,7 @@
     color: aliceblue;
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 40%;
     
 }
 
@@ -97,28 +99,33 @@
 .img-cocina{
     width: 150px;
 }
-
+.subtittle{
+    font-size: 40px;
+}
+.tittle{
+    font-size: 60px;
+}
 
 .body-concepto{
     min-height: 100vh;
     width: 100%;
-    background-image: url(https://w7.pngwing.com/pngs/961/545/png-transparent-of-green-leaves-watercolor-painting-watercolor-green-leaves-background-watercolor-leaves-angle-leaf.png);
+    /*background-image: url(https://p4.wallpaperbetter.com/wallpaper/1001/595/727/black-and-white-close-up-cutlery-fork-wallpaper-preview.jpg);*/
     background-position: center;
     background-size: cover;
     /*position: relative;*/
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255)), url(https://p4.wallpaperbetter.com/wallpaper/1001/595/727/black-and-white-close-up-cutlery-fork-wallpaper-preview.jpg);
 }
 
 .text2-superbox{
-    text-align: justify;
     color: aliceblue;
     width: 100%;
     /*position: absolute;*/
     top: 50%;
     right: 25%;
-    background-color: black;
+    background-color: cadetblue;
     max-width: 40%;
     padding: 50px;
     
@@ -126,7 +133,12 @@
 }
 
 .titleconcepto{
-    text-align: center;
+    text-align: center; 
+    
+}
+
+.lorem{
+    margin: 15px;
 }
 
 .gallery{
@@ -139,7 +151,7 @@
     background-image: url(https://static.vecteezy.com/system/resources/previews/001/739/437/non_2x/wooden-table-top-with-rustic-interior-background-free-photo.jpg);   
     /*align-content: space-between;*/
     gap: 30px;
-    padding: 40px;
+    padding: 100px;
     background-size: cover;
     justify-content: center;
     
@@ -150,6 +162,242 @@
 
 }
 
+.cartacompleta{
+    display: flex;
+    justify-content: center;
+    background-color: white;
 
+}
 
+.carta{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 
+.submenu{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.linecarta{
+    border-bottom: 1px solid cadetblue;
+}
+
+.fondocarta{
+    /*background-color: blue;
+    min-height: 100vh;
+    width: 80%;*/
+    min-height: 100vh;
+    background-color: cadetblue;
+    background-position: center;
+    background-size: cover;
+    /*position: relative;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.fondoizquierda{
+    background-color: white;
+    min-height: 100vh;
+    margin: 20px;
+    width: 45%;
+}
+.fondoderecha{
+    background-color: white;
+    min-height: 100vh;
+    margin: 20px;
+    width: 45%;
+}
+
+.izq{
+    margin: 50px;
+}
+
+.drch{
+    margin: 50px;
+}
+
+.comida{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 18px;
+}
+
+.lineasub{
+    height: 10px;
+    background-color: black;
+}
+
+.prueba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.probando{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.prueba1{
+    height: 2px;
+    width: 20%;
+    background-color: black;
+    color: white;
+}
+
+.prueba3{
+    height: 2px;
+    width: 35%;
+    background-color: black;
+    color: cadetblue; 
+}
+
+.prueba2{
+    margin: 10px;
+}
+
+.prueba4{
+    height: 2px;
+    width: 90%;
+    background-color: black;
+    color: cadetblue;  
+}
+
+.concept{
+    color: #000000;
+}
+
+.botondelacarta{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.cartabotton{
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding-top: 50px;
+    margin-bottom: 60px;
+    
+
+}
+
+.line4{
+    height: 2px;
+    width: 20%;
+    background-color: black;
+    color: rgba(255, 255, 255, 0);
+}
+
+.line5{
+    margin: 10px;
+    color: white;
+}
+
+.envioformulario{
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form1{
+    width: 50%;
+}
+
+.form2{
+    width: 50%;
+}
+
+.aside1{
+    width: 50%;
+}
+
+.line6{
+    height: 2px;
+    width: 60%;
+    background-color: black;
+    color: rgba(255, 255, 255, 0);
+    margin-bottom: 20px;
+}
+
+.sectionform{
+    background-image: url(https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/254063543.jpg?k=71af8e69ed5f5bf5b9111318e5d1e0dde5ff0d5471c55ab0513d00e1fa9c574c&o=);
+    background-size: cover;  
+}
+
+.blog{
+    min-height: 100vh;
+    width: 100%; 
+    background-color: white; 
+}
+
+.line8{
+    color: #000000;
+    margin: 10px;
+}
+
+.blogg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.blog{
+    background-color: aqua;
+}
+
+.cartas{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.carta1{
+    background-color: blue;
+    width: 15%;
+
+}
+
+.cartabottonn{
+   
+    border: 1px;
+    
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
