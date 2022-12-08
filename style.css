@@ -16,6 +16,9 @@
     /*qiero poner la imagen más oscura*/
  }
 
+ .tm{
+    color: #000000;
+ }
  nav{
     display: flex;
     padding: 2% 6%;
