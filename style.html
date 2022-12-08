@@ -18,7 +18,7 @@
                     <li><a class="fotos" href="">FOTOS</a></li>
                     <li><a class="menu" href="">MENÚ</a></li>
                     <li><a class="reservas" href="">RESERVAS</a></li>
-                    <li><a class="blog" href="">BLOG</a></li>
+                    <li><a class="bloge" href="">BLOG</a></li>
                     <li><a class="contacto" href="">CONTACTO</a></li>
                 </ul>
             </div>
@@ -27,9 +27,7 @@
         <div class="text-superbox"> <!--texto superpuesto-->
             <h1 class="subtittle">DESCUBRE</h1>
             <a  href="style.html"><img class="img-cocina" src="./imagenes/blue.png"></a>
-            <p class="tittle">PARADORES</p>
-            
-            <!--<p>WE ARE OPEN</p>-->
+            <p class="tittle">PARADORES</p> 
         </div>
     </section> <!--aquí acaba el header y menú-->
     <div>
@@ -151,8 +149,41 @@
                 <div class="line5"><h2>RESERVAS</h2></div>
                 <div class="line4">s</div>
             </div>
-            <div class="envioformulario">
+
+
+
+
+             <div class="envioformulario">
                 <div class="form1">
+                   <div class="form-container">
+                
+             
+                <label for="personas" class="form-label">Personas</label>
+                <select name="user_number" id="personas" class="form-select">
+                  <option value="2pax" selected class="form__option">2 person
+                  <option value="3pax" class="form__option">3 personas</option>
+                  <option value="4pax" class="form__option">4 personas</option>
+                  <option value="5paxs" class="form__option">5 personas</option>
+                </select>
+               
+                <label for="personas" class="form-label">Hora</label>
+                <input type="time" id="appt" name="appt" class="form-input">
+                <label for="tipomesa" class="form-label">Tipo de mesa</label>
+                <select name="mesa_tipo" id="mesa" class="form-select">
+                  <option value="default" selected disabled hidden class="form-input">Seleccione el tipo de mesa</option> 
+          
+
+                  <option value="interior" class="form__option">Interior</option>
+                  <option value="exterior" class="form__option">Exterior</option>
+                  <option value="terraza" class="form__option">Terraza</option>
+                  <option value="familiar" class="form__option">Familiar</option>
+                </select>
+                <button type="submit" class="form-btn">Reservar</button>
+               
+                <label for="tipomesa" class="form-labell">Si no encuentra disponibilidad,apuntese a la lista de espera</label>
+                <button type="waitlist" class="form-btn2">Lista de espera</button>
+                <button type="grouplist" class="form-btn2">Solicitud de grupo</button>
+        </div>
                     
                 </div>
                 <div class="form2"><aside>
@@ -168,6 +199,7 @@
         </div>
         </section>
 
+    
         <section><!--BLOG TRES CARTAS-->
             <div class="blog">
                 <div class="blogg">
@@ -177,27 +209,141 @@
                 </div> 
                 <div class="cartas">
                     <div class="carta1">
-                        <div>
+                        <div> 
                             <div>
-                                <a class="cartabottonn">Paradores</a> 
+                                <button class="botonparador"><a class="cartabottonn">Paradores</a> </button>
+                            </div>
+                            <div class="novedades">
+                                <p class="fecha">12/09/2022</p>
+                                <h2 class="tenemos">TENEMOS NOVEDADES PARA EL MES DE OCTUBRE</h2>
+                                <p class="fecha">Actualizamos nuestros productos para que sean los mejores</p>
                             </div>
                             <div>
-                                <p>12/09/2022</p>
-                                <h2>TENEMOS NOVEDADES PARA EL MES DE OCTUBRE</h2>
-                                <p>Actualizamos nuestros productos para que sean los mejores</p>
+                             <p class="linenove">s</p>
                             </div>
                             <div>
-                                
+                                <ul class="admin">
+                                    <li><span class="adimpng"><img class="imgeye" src="https://secure.gravatar.com/avatar/09888ba7cb82d9128cd941678cffcbde?s=256&d=mm&r=g">admin</span></li>
+                                    <li><span class="adimpng"><img class="imgeye" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/76/speech-balloon_1f4ac.png">0</span></li>
+                                    <li><span class="adimpng"><img class="imgeye" src="https://images.vexels.com/media/users/3/156139/isolated/lists/b10e86cc060d20797d6c5769dac59123-dibujado-a-mano-lindo-icono-de-coraz-n.png">1</span></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="carta1">b</div>
-                    <div class="carta1">c</div>
+
+                    <div class="carta2">
+                        <div> 
+                            <div>
+                                <button class="botonparador"><a class="cartabottonn">Paradores</a> </button>
+                            </div>
+                            <div class="novedades">
+                                <p class="fecha">04/01/2019</p>
+                                <h2 class="tenemos">LAS MEJORES OFERTAS DE 2019 en paradores</h2>
+                                <p class="fecha">desconecta en nuestros paradores y obtén las mejores ofertas</p>
+                            </div>
+                            <div>
+                             <p class="linenove">s</p>
+                            </div>
+                            <div>
+                                <ul class="admin">
+                                    <li><span class="adimpng"><img class="imgeye" src="https://secure.gravatar.com/avatar/09888ba7cb82d9128cd941678cffcbde?s=256&d=mm&r=g">admin</span></li>
+                                    <li><span class="adimpng"><img class="imgeye" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/76/speech-balloon_1f4ac.png">0</span></li>
+                                    <li><span class="adimpng"><img class="imgeye" src="https://images.vexels.com/media/users/3/156139/isolated/lists/b10e86cc060d20797d6c5769dac59123-dibujado-a-mano-lindo-icono-de-coraz-n.png">1</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="carta3">
+                        <div> 
+                            <div>
+                                <button class="botonparador"><a class="cartabottonn">Paradores</a> </button>
+                            </div>
+                            <div class="novedades">
+                                <p class="fecha">04/01/2019</p>
+                                <h2 class="tenemos">LAS MEJORES OFERTAS DE 2019 en paradores</h2>
+                                <p class="fecha">desconecta en nuestros paradores y obtén las mejores ofertas</p>
+                            </div>
+                            <div>
+                             <p class="linenove">s</p>
+                            </div>
+                            <div>
+                                <ul class="admin">
+                                    <li><span class="adimpng"><img class="imgeye" src="https://secure.gravatar.com/avatar/09888ba7cb82d9128cd941678cffcbde?s=256&d=mm&r=g">admin</span></li>
+                                    <li><span class="adimpng"><img class="imgeye" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/76/speech-balloon_1f4ac.png">0</span></li>
+                                    <li><span class="adimpng"><img class="imgeye" src="https://images.vexels.com/media/users/3/156139/isolated/lists/b10e86cc060d20797d6c5769dac59123-dibujado-a-mano-lindo-icono-de-coraz-n.png">1</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
                     
                 </div>
             </div>
 
+            <div class="botondelacarta">
+                <a class="cartabotton">VER TODAS LAS ENTRADAS</a>
+            </div>
         </section>
+        <section><!--CONTACTO Y RRSS-->
+            <div class="vencuandoquieras">
+                <div class="ven">
+                <a  href="style.html"><img class="img-cocina" src="./imagenes/blue.png"></a>
+                <p class="tittleven">VEN CUANDO QUIERAS</p> 
+                </div>
+            <div class="treslogos">
+                    <div class="logosjuntos"><a  href="style.html"><img class="lugarlogoo" src="https://cdn.pixabay.com/photo/2020/12/21/11/15/google-5849613_960_720.png"></a>
+                        <p class="lugar">Paradores en toda España</p></div> 
+                <div>
+                    <div class="logosjuntos"><a  href="style.html"><img class="lugarlogo" src="https://images.vexels.com/media/users/3/208106/isolated/preview/25f90f676b6ea88a5683158d91007907-icono-de-trazo-de-llamada-de-telefono-celular.png"></a>
+                        <p class="lugar">Contáctanos</p></div>
+                </div>
+                <div>
+                    <div class="logosjuntos"><a  href="style.html"><img class="lugarlogo" src="https://www.pngkey.com/png/full/851-8510157_mail-png-icon-vector-logo-correo-png.png"></a>
+                        <p class="lugar">paradores@paradoresdeturismo.com</p></div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="blogg">
+                <div class="line4">s</div>
+                <div class="line8"><h2>SÍGUENOS</h2></div>
+                <div class="line4">s</div>
+            </div> 
+            <div class="rrss">
+                <div><a class="rrssbotton">FACEBOOK</a></div>
+                <div><a class="rrssbotton">INSTAGRAM</a></div>
+            </div>
+        </section>
+
+        <footer class="final">
+            <div class="enlacesinteres">
+                <div>
+                    <p class="finaltitulos">ENLACES DE INTERÉS</p>
+                    <p class="finalp">Aviso legal y cookies</p>
+                    <p class="finalp">Todos los derechos reservados</p>
+                    <p class="finalp">Paradores 2023</p>
+                </div>
+                <div>
+                    <p class="finaltitulos">HORARIOS</p>
+                    <p class="finalp">Abiertos 365 días al año</p>
+                    <p class="finalp">Atención al cliente 24h</p>
+                    <p class="finalp">Resolvemos tus dudas</p>
+                </div>
+                <div>
+                    <p class="finaltitulos">CONTACTO</p>
+                    <p class="finalp">España</p>
+                    <p class="finalp">Paradores nacionales de turismo</p>
+                    <p class="finalp">Visítanos</p>
+                </div>
+            </div>
+            <div class="derechosreservados">
+                <div><p>Todos los derechos reservados 2018</p></div>
+                <div><img class="derechoslogo" src="https://cdn-icons-png.flaticon.com/512/61/61045.png"><img class="derechoslogo" src="https://cdn-icons-png.flaticon.com/512/87/87390.png"></div>
+            </div>
+        </footer>
 
     </div>
 </body>
